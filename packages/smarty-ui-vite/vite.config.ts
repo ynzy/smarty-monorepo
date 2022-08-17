@@ -32,6 +32,7 @@ export default defineConfig({
     cssCodeSplit: true,
     minify: "terser", // boolean | 'terser' | 'esbuild'
     sourcemap: true, // 输出单独 source文件
+    brotliSize: true, // 生成压缩大小报告
     lib: {
       entry: "./src/entry.ts",
       name: "SmartyUI",
@@ -39,6 +40,7 @@ export default defineConfig({
       // 导出模块格式
       formats: ["es", "umd", "iife"],
     },
+    outDir: "./dist",
   },
 
   test: {
