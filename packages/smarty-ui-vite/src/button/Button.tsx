@@ -12,8 +12,7 @@ export type IColor =
   | "indigo"
   | "purple"
   | "pink"
-  | "orange"
-  | "gold";
+  | "orange";
 
 export const props = {
   // 新增
@@ -85,7 +84,11 @@ export default defineComponent({
           mx-1
           `}
       >
-        { props.icon !== "" ? <i class={`i-ic-baseline-${props.icon} p-3`}></i> : ""}
+        {props.icon !== "" ? (
+          <i class={`i-ic-baseline-${props.icon} p-3`}></i>
+        ) : (
+          ""
+        )}
         {slots.default ? slots.default() : ""}
       </button>
     );
