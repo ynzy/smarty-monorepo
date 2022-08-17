@@ -23,6 +23,8 @@
   "author": "ynzy",
   "license": "ISC",
   "devDependencies": {
+    "@commitlint/cli": "^17.0.3",
+    "@commitlint/config-conventional": "^17.0.3",
     "@iconify-json/ic": "^1.1.9",
     "@types/node": "^18.7.5",
     "@typescript-eslint/eslint-plugin": "^5.33.1",
