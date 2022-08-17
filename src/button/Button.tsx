@@ -45,7 +45,7 @@ export default defineComponent({
   name: "SButton",
   props,
   setup(props, { slots }) {
-    console.log(`html`, document.querySelector(`#app`)?.innerHTML);
+    // console.log(`html`, document.querySelector(`#app`)?.innerHTML);
 
     const size = {
       small: {
