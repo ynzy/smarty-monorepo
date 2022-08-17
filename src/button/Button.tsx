@@ -11,7 +11,8 @@ export type IColor =
   | "blue"
   | "indigo"
   | "purple"
-  | "pink";
+  | "pink"
+  | "orange";
 
 export const props = {
   // 新增
