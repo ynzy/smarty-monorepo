@@ -12,8 +12,7 @@
     "test:run": "vitest run",
     "docs:dev": "vitepress dev docs",
     "docs:build": "vitepress build docs",
-    "docs:serve": "vitepress serve docs",
-    "prepare": "husky install"
+    "docs:serve": "vitepress serve docs"
   },
   "keywords": [
     "vite",
