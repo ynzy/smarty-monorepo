@@ -13,7 +13,6 @@ const colors = [
   "purple",
   "pink",
   "orange",
-  "gold",
 ];
 const safelist = [
   ...colors.map((v) => `bg-${v}-100`),

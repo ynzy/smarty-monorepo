@@ -1,4 +1,10 @@
 #!/usr/bin/env sh
 . "$(dirname -- "$0")/_/husky.sh"
 
+echo ====代码静态检查====
+cd packages/smarty-ui-vite
 pnpm lint
+
+# cd ../../
+# cd packages/ui
+# pnpm lint
