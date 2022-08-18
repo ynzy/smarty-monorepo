@@ -43,6 +43,6 @@ jobs:
         with:
           version: 7.2.1
       - name: Install modules
-        run: pnpm install --no-frozen-lockfile--no-frozen-lockfile
+        run: pnpm install --no-frozen-lockfile
       - name: Run Lint
         run: cd packages/smarty-ui-vite && pnpm run build
