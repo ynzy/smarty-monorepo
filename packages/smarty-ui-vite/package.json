@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "module": "./dist/smarty-ui.mjs",
+  "homepage": "https://smarty-monorepo.vercel.app",
   "scripts": {
     "dev": "vite",
     "run:demo": "vite",
