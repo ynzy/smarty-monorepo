@@ -7,8 +7,10 @@
             "dom",
             "esnext",
         ],
+        "types": ["vite/client"]
     },
     "include": [
+        "vite.config.*",
         "./src/**/*.*",
         "./src/shims-vue.d.ts",
     ],
