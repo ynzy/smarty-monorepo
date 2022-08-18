@@ -16,7 +16,7 @@ jobs:
         with:
           version: 7.2.1
       - name: Install modules
-        run: pnpm install
+        run: pnpm install --no-frozen-lockfile
       - name: lint
         run: cd packages/smarty-ui-vite && pnpm run lint
 
@@ -30,7 +30,7 @@ jobs:
         with:
           version: 7.2.1
       - name: Install modules
-        run: pnpm install
+        run: pnpm install --no-frozen-lockfile
       - name: test
         run: cd packages/smarty-ui-vite && pnpm run test:run
   PreBuild:
@@ -43,6 +43,6 @@ jobs:
         with:
           version: 7.2.1
       - name: Install modules
-        run: pnpm install
+        run: pnpm install --no-frozen-lockfile--no-frozen-lockfile
       - name: Run Lint
         run: cd packages/smarty-ui-vite && pnpm run build

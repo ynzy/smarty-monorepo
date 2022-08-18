@@ -14,7 +14,7 @@ jobs:
         with:
           version: 6.31.0
       - name: Install modules
-        run: pnpm install
+        run: pnpm install --no-frozen-lockfile
       - name: Build
         run: cd packages/smarty-ui-vite && npm run build
       - name: "Publish to the npm registry"
