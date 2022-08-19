@@ -7,7 +7,7 @@
 <h1 align="center">Smarty-Admin</h1>
 
 <p align="center">
-前端工程化教学模型
+前端工程化教学模型11
 </p>
 
 <p align="center">
