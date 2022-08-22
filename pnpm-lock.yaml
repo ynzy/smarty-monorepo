@@ -55,6 +55,7 @@ importers:
       prettier: ^2.7.1
       rollup-plugin-copy: ^3.4.0
       terser: ^5.14.2
+      typescript: ^4.7.4
       unocss: ^0.45.7
       vite: ^3.0.7
       vitepress: 1.0.0-alpha.5
@@ -88,6 +89,7 @@ importers:
       prettier: 2.7.1
       rollup-plugin-copy: 3.4.0
       terser: 5.14.2
+      typescript: 4.7.4
       unocss: 0.45.7_vite@3.0.8
       vite: 3.0.8_terser@5.14.2
       vitepress: 1.0.0-alpha.5_hoyvfk3ab7nzsjkhptt6ai7rzq
