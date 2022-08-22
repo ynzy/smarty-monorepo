@@ -13,6 +13,12 @@
 <p align="center">
     <a href="https://www.npmjs.com/package/smarty-ui-vite-ynzy"><img src="https://img.shields.io/npm/v/smarty-ui-vite-ynzy?color=c95f8b&amp;label=" alt="NPM version"></a>
     <a href="https://github.com/ynzy/smarty-ui-vite/actions/workflows/main.yml"><img src="https://github.com/ynzy/smarty-ui-vite/actions/workflows/main.yml/badge.svg?branch=main" alt="CI" style="max-width: 100%;"></a>
+    <a href="https://github.com/ynzy/smarty-monorepo/blob/main/LICENSE" > 
+ <img src="https://img.shields.io/github/license/ynzy/smarty-monorepo?color=red&style=plastic"/> 
+ </a>
+    <a href="https://codecov.io/gh/ynzy/smarty-monorepo" > 
+ <img src="https://codecov.io/gh/ynzy/smarty-monorepo/branch/main/graph/badge.svg?token=2ERQTJ0Y4O"/> 
+ </a>
 </p>
 
 <br>
