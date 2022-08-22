@@ -23,10 +23,10 @@ importers:
 
   packages/docs-vite:
     specifiers:
-      smarty-ui-vite: workspace:^1.0.1
+      smarty-ui-vite-ynzy: workspace:^1.0.2
       vue: ^3.2.37
     dependencies:
-      smarty-ui-vite: link:../smarty-ui-vite
+      smarty-ui-vite-ynzy: link:../smarty-ui-vite
       vue: 3.2.37
 
   packages/smarty-ui-vite:
