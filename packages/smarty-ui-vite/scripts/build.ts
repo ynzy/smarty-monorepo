@@ -12,7 +12,7 @@ import * as path from "path";
 
 const buildAll = async () => {
   // 全量打包
-  build(defineConfig(config as UserConfig) as InlineConfig);
+  await build(defineConfig(config as UserConfig) as InlineConfig);
 
   // 读取组件文件夹遍历组件库文件夹
   const srcDir = path.resolve(__dirname, "../src/");
