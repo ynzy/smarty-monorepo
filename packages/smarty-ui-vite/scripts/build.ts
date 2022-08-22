@@ -9,10 +9,13 @@ import {
 } from "vite";
 import * as fs from "fs-extra";
 import * as path from "path";
+import { execa } from "execa";
 
 const buildAll = async () => {
   // 全量打包
   await build(defineConfig(config as UserConfig) as InlineConfig);
+  const files = ["package.json", "README.md"];
+  await Promise.all(files.map((file) => execa("cp", [file, "./dist"])));
 
   // 读取组件文件夹遍历组件库文件夹
   const srcDir = path.resolve(__dirname, "../src/");

@@ -6,6 +6,7 @@ import type { Plugin, UserConfig } from "vite";
 import vue from "@vitejs/plugin-vue";
 import vueJsx from "@vitejs/plugin-vue-jsx";
 import Unocss from "./config/unocss";
+import copy from "rollup-plugin-copy";
 
 // https://vitejs.dev/config/
 
@@ -16,6 +17,13 @@ export const config = {
     vueJsx() as Plugin,
     // 添加UnoCSS插件
     Unocss() as Plugin[],
+    // copy({
+    //   targets: [
+    //     { src: "package.json", dest: "dist" },
+    //     { src: "README.md", dest: "dist" },
+    //   ],
+    //   hook: "writeBundle",
+    // }),
   ],
   // 添加库模式配置
   build: {
