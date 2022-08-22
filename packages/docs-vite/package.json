@@ -10,7 +10,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "smarty-ui-vite-ynzy": "workspace:^1.0.2",
+    "smarty-ui-vite-ynzy": "workspace:^1.0.3",
     "vue": "^3.2.37"
   }
 }
