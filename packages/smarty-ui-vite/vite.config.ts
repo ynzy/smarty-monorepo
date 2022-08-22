@@ -6,7 +6,7 @@ import type { Plugin, UserConfig } from "vite";
 import vue from "@vitejs/plugin-vue";
 import vueJsx from "@vitejs/plugin-vue-jsx";
 import Unocss from "./config/unocss";
-import copy from "rollup-plugin-copy";
+// import copy from "rollup-plugin-copy";
 
 // https://vitejs.dev/config/
 
