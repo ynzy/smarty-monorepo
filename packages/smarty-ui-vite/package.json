@@ -1,9 +1,9 @@
 {
   "name": "smarty-ui-vite-ynzy",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "",
   "main": "index.js",
-  "module": "./dist/smarty-ui.mjs",
+  "module": "./smarty-ui.mjs",
   "homepage": "https://smarty-monorepo.vercel.app",
   "scripts": {
     "dev": "vite",
