@@ -16,7 +16,7 @@ export const config = {
     // 添加JSX插件
     vueJsx() as Plugin,
     // 添加UnoCSS插件
-    Unocss() as Plugin[],
+    Unocss(),
     // copy({
     //   targets: [
     //     { src: "package.json", dest: "dist" },
