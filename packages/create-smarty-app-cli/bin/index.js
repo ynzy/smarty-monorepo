@@ -6,7 +6,7 @@ import clear from "clear";
 import chalk from "chalk";
 import inquirer from "inquirer";
 import chalkAnimation from "chalk-animation";
-
+// 测试分支
 const log = (content) => console.log(chalk.green(content));
 const opt = {
   "SmartyUI应用模版(Vite)": "smarty-ui-vite",
